@@ -1,0 +1,27 @@
+MDScreen:
+
+    MDFloatLayout:
+        md_bg_color: 0.1, 0.15, 0.29, 1
+
+        Image:
+            source: "assets/check.png"
+            halign: "center"
+            height: 10
+
+        MDLabel:
+            text: "Todo App"
+            font_name: 'Roboto'
+            font_size: "20sp"
+            halign: "center"
+            pos_hint: {'center_x': .2, 'center_y': .9}
+            # md_bg_color: 0, 0.8, 0.8, 0.8
+            color: 1,1,1,1
+
+        MDFlatButton:
+            text: "start"
+            md_bg_color: 1,1,1,1
+            font_name: "Roboto"
+            font_size: "14sp"
+            size_hint: (.20, .05)
+            pos_hint: {'center_x': .2, 'center_y': .2}
+            elevation_normal: 10
